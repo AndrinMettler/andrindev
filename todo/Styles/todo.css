@@ -5,3 +5,13 @@ html{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
     font-size: 14px;
 }
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+ul {
+    list-style: none;
+}
