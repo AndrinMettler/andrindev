@@ -18,3 +18,14 @@ p {
 div > p { /*hier wird jedes p in einem div angesprochen*/
     font-size: 30px;
 }
+
+li:first-of-type { /*Ansprache des ersten li Elements */
+    background-color: green;
+}
+li:last-of-type {
+    background-color: red;
+}
+
+p::first-letter{ /*Ansprache des ersten Buchstaben innerhalb aller p Elemente*/
+    color: deeppink;
+}
