@@ -12,6 +12,8 @@ aside {
     float: left;
     width: 20%;
 
+
+
 }
 .content {
     background-color: #00A8EF;
@@ -20,6 +22,8 @@ aside {
     width: 60%;
     text-align: center;
 
+
+
 }
 nav {
     background-color: #0a0a0a;
@@ -27,6 +31,7 @@ nav {
     height: 200px;
     width: 20%;
     float: right;
+
 
 
 }
