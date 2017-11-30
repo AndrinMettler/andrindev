@@ -1,0 +1,47 @@
+header {
+    background-color: green;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+aside {
+    background-color: #0a0a0a;
+    color: white;
+    height: 200px;
+    float: left;
+    width: 20%;
+
+}
+.content {
+    background-color: #00A8EF;
+    height: 200px;
+    float: left;
+    width: 60%;
+    text-align: center;
+
+}
+nav {
+    background-color: #0a0a0a;
+    color: white;
+    height: 200px;
+    width: 20%;
+    float: right;
+
+
+}
+
+
+footer {
+    background-color: green;
+    height: 100px;
+    border-top: 2px solid white;
+    text-align: center;
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
