@@ -12,3 +12,9 @@ p {
 #text {
     background-color: red;
 }
+
+/*Pseudo Selektoren*/
+
+div > p { /*hier wird jedes p in einem div angesprochen*/
+    font-size: 30px;
+}
