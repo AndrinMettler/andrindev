@@ -1,0 +1,14 @@
+/* Element Ansprache: 1Punkt */
+p {
+    background-color: #00A8EF;
+}
+
+/* Klassen Ansprache: 10 Punkte */
+
+.text {
+    background-color: green;
+}
+
+#text {
+    background-color: red;
+}
