@@ -9,9 +9,26 @@ html{
 h1{
     font-size: 100px;
     text-align: center;
-    
+
+}
+#eingabe{
+    display: block;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
 }
 
-ul {
-    list-style: none;
+.firsttodo{
+    display: inline;
+}
+.checkbox{
+    float:left;
+}
+.delete{
+    float: right;
 }
