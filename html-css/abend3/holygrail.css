@@ -1,0 +1,44 @@
+header {
+    background-color: blue;
+}
+
+.aside {
+    color: white;
+    background-color: black;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.content {
+    background-color: dimgray;
+    flex-basis: 60%;
+    text-align: center;
+
+
+}
+
+.navigation{
+    color: white;
+    background-color: black;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: blue;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
