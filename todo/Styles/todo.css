@@ -36,16 +36,22 @@ ul{
     list-style: none;
 }
 .checkbox{
-    float: left;
-    display: inline;
+    display: flex;
+    justify-content: flex-start;
+
+
 }
 .delete{
-    float: right;
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+
+
     margin-left: 20px;
 }
 .listitem {
-    display: inline;
+    display: flex;
+    justify-content: center;
+
 
 }
 .liste {
