@@ -41,7 +41,7 @@ ul{
 
 
 }
-.delete{
+.listitem__button{
     display: flex;
     justify-content: flex-end;
 
@@ -49,6 +49,7 @@ ul{
     margin-left: 20px;
 }
 .listitem {
+    font-size: 24px;
     display: flex;
     justify-content: center;
 
