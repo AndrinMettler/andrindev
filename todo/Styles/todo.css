@@ -1,63 +1,50 @@
-
-
-h1{
-    font-size: 100px;
-    text-align: center;
-    border-bottom: 1px solid ;
-    margin-bottom: 30px;
-    padding-bottom: 40px;
-
-}
-
-.container {
+.box{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #f5f5f5;
-    border-color: #ededed;
     color: #4d4d4d;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
     font-size: 14px;
-    border: 1px solid ;
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-#eingabe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 25px;
+.box__title{
+    height: 100px;
     text-align: center;
-    border: 1px solid ;
+    border-bottom: 1px solid #ededed;
+    font-size: 48px;
+
 }
 
-ul{
-    list-style: none;
+.box__add{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+    padding: 2px;
+
 }
-.checkbox{
+.box__underline{
+}
+
+.todolist{
     display: flex;
-    justify-content: flex-start;
-
-
-}
-.listitem__button{
-    display: flex;
-    justify-content: flex-end;
-
-
-    margin-left: 20px;
-}
-.listitem {
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-
-
-}
-.liste {
-    margin-top: 20px;
-    border-top: 0.5px solid ;
-    border-bottom: 0.5px solid ;
+    flex-wrap: wrap;
 }
 
+.todolist__checkbox{
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.todolist__listitem{
+    flex-basis: 60%;
+}
+
+.todolist__button{
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
