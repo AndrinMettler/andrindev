@@ -1,0 +1,52 @@
+.press{
+    position: absolute;
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    border-radius: 75%;
+
+    animation: flybutton 2s linear forwards, rotatingbutton 3s 2.1s linear forwards, angrybutton 4s 5.1s alternate-reverse forwards;
+}
+
+@keyframes flybutton {
+    from{
+        margin-left: 0;
+
+
+
+    }
+    to{
+        margin-left: 50%;
+
+
+    }
+
+}
+
+@keyframes rotatingbutton {
+    from{
+        margin-left: 50%;
+        transform: rotate(0deg);
+    }
+    to{
+        margin-left: 100%;
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes angrybutton{
+    from{
+        margin-left: 100%;
+        margin-top: 100%;
+        transform: rotate(0deg);
+
+    }
+    to{
+        margin-left: 50%;
+        margin-top: 25%;
+        transform: rotate(360deg);
+    }
+}
