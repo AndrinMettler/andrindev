@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  &__content {
+    flex-basis: 60%
+  }
+  &__aside {
+    flex-basis: auto;
+    flex-grow: 1;
+  }
+  &__button {
+    background-color: $buttoncolor;
+    &:hover{
+      background-color: lighten($buttoncolor, 25%);
+
+    }
+  }
+  &__nav {
+    flex-basis: auto;
+    flex-grow: 1;
+  }
+}
