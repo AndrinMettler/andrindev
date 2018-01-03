@@ -1,0 +1,70 @@
+/**
+ * Base
+ */
+
+@import "base/reset";
+
+/**
+ * Components
+ */
+
+@impor
+
+
+
+
+.box{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #f5f5f5;
+  color: #4d4d4d;
+  font-size: 14px;
+
+  /* Linien Farbe noch ergänzen */
+}
+
+.box__title{
+  height: 100px;
+  width: 500px;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  font-size: 48px;
+
+
+}
+
+.box__add{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+  padding: 2px;
+
+}
+.box__underline{
+}
+
+.todolist{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todolist__checkbox{
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+.todolist__listitem{
+  flex-basis: 60%;
+}
+
+.todolist__button{
+  flex-basis: auto;
+  flex-grow: 1;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}t "components/sample";

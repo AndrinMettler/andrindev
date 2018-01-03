@@ -5,37 +5,31 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Andrins To Do App</title>
-    <link rel="stylesheet" type="text/css" href="Styles/todo.css">
+    <title>Andrin's todo App</title>
+
+    <link rel="stylesheet" href="/assets/styles/main.css" type="text/css">
 </head>
-
 <body>
-<div class="container">
-<h1>todos</h1>
+    <div class="box">
+        <h1 class="box__title">todos</h1>
+        <input class="box__add" type="text" placeholder="what needs to be done?">
+        <hr class="box__underline" style="color: #ededed">
+            <div class="todolist clearfix">
+                <ul class="todolist__list">
+                    <li>
+                        <input type="checkbox" class="todolist__checkbox">
+                        <div class="todolist__listitem">Plutonium</div>
+                        <button class="todolist__button">X</button>
+                    </li>
+                </ul>
 
-<label for="eingabe">
-    <input type="text" id="eingabe" placeholder="What needs to be done?"></label>
-
-    <div class="liste clearfix">
-        <ul>
-            <li>
-                <form><input type="checkbox" class="checkbox"></form>
-
-            <div class="listitem">Bier</div>
-            <button class="delete">clear</button>
-            </li>
-
-
-
-        </ul>
-
-
-
+            </div>
     </div>
 
 
 
-</div>
+
+
 
 </body>
 </html>
