@@ -38,8 +38,16 @@
 }
 
 .todolist{
+
+}
+.todolist__firstli{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
+    padding: 5px;
 }
 
 .todolist__checkbox{
@@ -48,12 +56,25 @@
 }
 
 .todolist__listitem{
-    flex-basis: 60%;
+    height: 25px;
+    flex-basis: 70%;
+    text-align: center;
 }
 
 .todolist__button{
     flex-basis: auto;
     flex-grow: 1;
+    
+}
+.todolist__secondli{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 5px;
+
 }
 .clearfix:after {
     content: "";

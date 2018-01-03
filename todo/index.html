@@ -26,17 +26,17 @@
 <div class="box">
 
     <h1 class="box__title">todos</h1>
-    <hr>
+    <hr class="box__titleunderline">
 
     <input class="box__add" type="text" placeholder="what needs to be done?">
 
-    <hr class="box__underline" style="color: #ededed">
+    <hr class="box__underline">
 
     <div class="todolist clearfix">
 
         <ul class="todolist__list">
 
-            <li>
+            <li class="todolist__firstli">
 
                 <input type="checkbox" class="todolist__checkbox">
 
@@ -45,6 +45,13 @@
                 <button class="todolist__button">X</button>
 
             </li>
+                    <li class="todolist__secondli">
+                        <input type="checkbox" class="todolist__checkbox">
+
+                        <div class="todolist__listitem">Dynamtie</div>
+
+                        <button class="todolist__button">X</button>
+                    </li>
 
         </ul>
 
