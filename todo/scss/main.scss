@@ -1,0 +1,19 @@
+@import "colors";
+
+
+.box{
+  font-family: $font;
+  background-color: $background;
+  color: $color;
+  font-size: $fontsizebox;
+  display: block;
+  height: 100%;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Linien Farbe noch ergänzen */
+}
+.box__title{
+  background-color: $background;
+  color: $color;
+}
