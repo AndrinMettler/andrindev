@@ -1,11 +1,11 @@
-@media only screen and (max-width: 768px) {
-  h1 {
-    color: red; } }
-
-@media only screen and (max-width: 1024px) {
-  h1 {
-    color: blue; } }
-
-@media only screen and (max-width: 900px) {
-  h1 {
-    color: green; } }
+h1 {
+  color: hotpink; }
+  @media only screen and (min-width: 400px) {
+    h1 {
+      color: green; } }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      color: red; } }
+  @media only screen and (min-width: 1024px) {
+    h1 {
+      color: blue; } }
