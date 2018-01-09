@@ -1,0 +1,38 @@
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-mobile: 900px;
+
+
+
+
+
+@mixin responsive ($media){
+  @if $media == tablet {
+  @media only screen and (max-width: $breakpoint-tablet) { @content; }
+
+}
+  @if $media == desktop {
+  @media only screen and (max-width: $breakpoint-desktop) { @content}
+}
+  @if $media == mobile {
+  @media only screen and (max-width: $breakpoint-mobile) {@content}
+
+
+}
+}
+@include responsive ("tablet"){
+  h1{
+    color:red;
+  }
+}
+@include responsive ("desktop"){
+  h1{
+    color:blue;
+  }
+
+}
+@include responsive ("mobile"){
+  h1{
+    color:green;
+  }
+}

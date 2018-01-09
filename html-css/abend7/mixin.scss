@@ -1,0 +1,18 @@
+
+
+@mixin transitions ($property...) {
+  -webkit-transition:$property;
+  -moz-transition:$property;
+  -ms-transition:$property;
+  -o-transition: $property;
+  transition: $property;
+}
+
+p{
+  @include transitions(all 0.3s linear);
+}
+h1{
+  @include transitions(background 1s ease-in);
+
+}
+
