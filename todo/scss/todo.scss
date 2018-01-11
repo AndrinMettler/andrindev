@@ -1,21 +1,23 @@
-@charset "UTF-8";
-.box {
+@import "colors";
+
+
+.box{
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: #f5f5f5;
-  color: #4d4d4d;
+  background-color: $background;
+  color: $color;
   font-size: 14px;
   display: block;
   height: 100%;
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-  /* Linien Farbe noch ergänzen */ }
-
-.box__title {
-  background-color: #f5f5f5;
-  color: #4d4d4d; }
-
-.box__add {
+  /* Linien Farbe noch ergänzen */
+}
+.box__title{
+  background-color: $background;
+  color: $color;
+}
+.box__add{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -23,40 +25,53 @@
   height: 50px;
   text-align: center;
   padding: 2px;
-  font-size: 20px; }
+  font-size: 20px;
 
-.todolist__firstli {
+}
+.box__underline{
+}
+
+.todolist{
+
+}
+.todolist__firstli{
   width: 400px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  padding: 5px; }
+  padding: 5px;
+}
 
-.todolist__checkbox {
+.todolist__checkbox{
   flex-basis: auto;
-  flex-grow: 1; }
+  flex-grow: 1;
+}
 
-.todolist__listitem {
+.todolist__listitem{
   height: 25px;
   flex-basis: 70%;
-  text-align: center; }
+  text-align: center;
+}
 
-.todolist__button {
+.todolist__button{
   flex-basis: auto;
-  flex-grow: 1; }
+  flex-grow: 1;
 
-.todolist__secondli {
+}
+.todolist__secondli{
   width: 400px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  padding: 5px; }
+  padding: 5px;
 
+}
 .clearfix:after {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
