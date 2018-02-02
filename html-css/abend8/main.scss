@@ -5,10 +5,10 @@
 @import "reboot";
 @import "type";
 //@import "images";
-//@import "code";
+@import "code";
 @import "grid";
 //@import "tables";
-//@import "forms";
+@import "forms";
 //@import "buttons";
 //@import "transitions";
 //@import "dropdown";
@@ -43,5 +43,14 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 300px;
+  width: 200px;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list__item{
+  text-align: center;
 }
