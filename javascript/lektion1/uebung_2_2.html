@@ -28,6 +28,17 @@
         {firstname: "Bart", lastname: "Bellon", phoneNumber: "0711234523", age: 27, sex: "m"},
       ];
 
+      for (var i = 0; i < kunden.length; i++) {
+          if (kunden[i].sex == "m"){
+              var anrede = "Herr";
+          } else{
+              var anrede = "Frau"
+          }
+          console.log(anrede + " " + kunden[i].firstname + " " + kunden[i].lastname)
+      }
+
+
+
     </script>
   </body>
 </html>
